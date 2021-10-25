@@ -14,16 +14,7 @@ body {
 section {
     min-height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background1.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-.about-section {
-    min-height: 90vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background2.jpg);
+    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -53,6 +44,10 @@ nav {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+}
+
+.links .active {
+    color: red;
 }
 
 /* Hover effect on menu links */
@@ -134,4 +129,58 @@ display: inline;
     margin: 1%;
     padding: 0;
     color: #fff;
+}
+
+/* Start of About page */
+
+.about-section {
+    min-height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.about-text {
+    color: #fff;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-text h1 {
+    font-size: 42px;
+    color: #fff;
+}
+
+.about-text p {
+    margin: 10px 0 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.second-button {
+    color: red;
+    border: 1px solid red;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.second-button:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 1s;
+}
+
+.about-footer {
+    background-color: slategray;
 }
