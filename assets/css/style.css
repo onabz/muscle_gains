@@ -12,7 +12,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background1.jpg);
     background-position: center;
@@ -107,4 +107,22 @@ nav {
 
 /* footer */
 
+footer {
+    background-color: black;
+    height: 10vh;
+}
 
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 0;
+    color: #fff;
+}
