@@ -186,3 +186,121 @@ display: inline;
 }
 
 /* Membership page */
+
+.basic-plan {
+    width: 200px;
+    border-radius: 5%;
+    box-shadow: 0,0,5px rgba(0,0,0,0.2);
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 30px;
+}
+
+.basic-plan-header {
+    padding: 25px;
+    background: red;
+}
+
+.basic-plan-title, .basic-plan-addon {
+    margin: 0;
+    text-align: center;
+}
+
+.basic-plan-title {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.basic-plan-addon {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.basic-plan-description {
+    padding: 25px;
+    /* border: red; */
+}
+
+.basic-plan-list {
+    padding: 0;
+    margin: 0;
+}
+
+.basic-plan-benefit {
+    list-style: none;
+    margin: 0;
+    font-size: 0.9em;
+    padding-left: 25px;
+    position: relative;
+}
+
+.basic-plan-benefit:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+.basic-plan-benefit::before {
+    content: "\2714";
+    color: red;
+    position: absolute;
+    left: 0;
+}
+
+.basic-plan-select {
+    padding: 25px;
+    display: flex;
+    border-top: 1px solid red;
+    bordeer: red;
+    flex-direction: column;
+}
+
+.basic-plan-button {
+    display: inline-block;
+    margin: 15px auto;
+    padding-left: 8px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+}
+
+.basic-plan-button:hover {
+    border: 1px solid red;
+    background: red;
+    transition: 1s;
+}
+
+.basic-plan-price {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+}
+
+.basic-plan-text {
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 0 0 10px 0;
+}
+
+
+
+
+/* Classes page */
+
+.classes-section {
+    min-height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)), url(../images/background_4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Gallery page */
+
+/* Contact page */
