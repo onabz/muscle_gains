@@ -131,7 +131,7 @@ display: inline;
     color: #fff;
 }
 
-/* Start of About page */
+/* About page */
 
 .about-section {
     min-height: 90vh;
@@ -184,3 +184,5 @@ display: inline;
 .about-footer {
     background-color: black;
 }
+
+/* Membership page */
