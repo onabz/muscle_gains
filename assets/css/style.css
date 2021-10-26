@@ -14,6 +14,8 @@ body {
     min-height: 100vh;
 }
 
+/* bacgkground images */
+
 #bg-index {
     background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_1.jpg);
 }
@@ -26,6 +28,10 @@ body {
 
 #bg-classes {
     background-image: linear-gradient(rgba(4,9,30,.6),rgba(4,9,30,.6)), url(../images/background_4.jpg);
+}
+
+#bg-gallery {
+    background-color: black;
 }
 /* Styling the navigation links */
 
@@ -275,12 +281,75 @@ display: inline;
     padding: 10px;
 }
 
-
-
-
 /* Classes page */
 
+.table-box {
+    margin: 10px auto;
+}
+
+.table-row {
+    display: table;
+    width: 60%;
+    margin: 10px auto;
+    background-color: rgba(241, 8, 8, 0.7);
+    padding: 8px 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.table-cell {
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 2px 0;
+    border-right: 1px solid #fff;
+    vertical-align: middle;
+}
+
+.table-head {
+    background: rgba(44, 2, 2, 0.7);
+    font-weight: 700;
+}
+
+
+
 /* Gallery page */
+
+/* .gallery-section {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.gallery-section > img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#gallery-footer {
+    background-color: black;
+    height: 10vh;
+    position: sticky;
+    top: 50%;
+} */
+
+#gallery-section {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+}
+
+#gallery-section > img {
+    width: 100%;
+}
 
 /* Contact page */
 
