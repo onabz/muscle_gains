@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    border: none;
 }
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-}
-
-section {
-    min-height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_1.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
+    min-height: 100vh;
+}
+
+#bg-index {
+    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_1.jpg);
+}
+#bg-about {
+    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_2.jpg);
+}
+#bg-membership {
+    background-image: linear-gradient(rgba(4,9,30,.6),rgba(4,9,30,.6)), url(../images/background_3.jpg);
 }
 
 /* Styling the navigation links */
@@ -92,20 +96,20 @@ nav {
 /* Styling the 'join us' buttton */
 
 .first-button {
-    color: red;
-    border: 1px solid red;
+    color: #fff;
+    border: 1px solid #fff;
     display: inline-block;
     text-decoration: none;
     padding: 12px 34px;
     font-size: 30px;
-    background: transparent;
+    background-color: red;
     position: relative;
     cursor: pointer;
 }
 
 .first-button:hover {
     border: 1px solid #fff;
-    background: #fff;
+    background: rgb(76, 78, 78);
     transition: 1s;
 }
 
@@ -114,6 +118,8 @@ nav {
 footer {
     background-color: black;
     height: 10vh;
+    position: sticky;
+    top: 100%;
 }
 
 .social-networks {
@@ -132,15 +138,6 @@ display: inline;
 }
 
 /* About page */
-
-.about-section {
-    min-height: 90vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_2.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
 
 .about-text {
     color: #fff;
@@ -181,16 +178,21 @@ display: inline;
     transition: 1s;
 }
 
-.about-footer {
-    background-color: black;
-}
-
 /* Membership page */
+
+.membership-section {
+    min-height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
 .basic-plan {
     width: 200px;
     border-radius: 5%;
-    box-shadow: 0,0,5px rgba(0,0,0,0.2);
+    box-shadow: 0,0,5px rgb(100,8,8,);
     overflow: hidden;
     font-size: 12px;
     line-height: 1.5;
@@ -251,7 +253,7 @@ display: inline;
     padding: 25px;
     display: flex;
     border-top: 1px solid red;
-    bordeer: red;
+    border: red;
     flex-direction: column;
 }
 
@@ -304,3 +306,17 @@ display: inline;
 /* Gallery page */
 
 /* Contact page */
+
+/* media queries */
+
+@media only screen and (min-width: 601px) {
+    /* tablet view */
+}
+
+@media only screen and (min-width: 993px) {
+    /* desktop view */
+}
+
+@media only screen and (min-width: 1201px) {
+    /* large desktop view */
+}
