@@ -24,6 +24,9 @@ body {
     background-image: linear-gradient(rgba(4,9,30,.6),rgba(4,9,30,.6)), url(../images/background_3.jpg);
 }
 
+#bg-classes {
+    background-image: linear-gradient(rgba(4,9,30,.6),rgba(4,9,30,.6)), url(../images/background_4.jpg);
+}
 /* Styling the navigation links */
 
 nav {
@@ -93,9 +96,9 @@ nav {
     color: lightgray;
 }
 
-/* Styling the 'join us' buttton */
+/* Styling the 'join us' buttton for home and about pages */
 
-.first-button {
+.first-button, .second-button {
     color: #fff;
     border: 1px solid #fff;
     display: inline-block;
@@ -107,7 +110,7 @@ nav {
     cursor: pointer;
 }
 
-.first-button:hover {
+.first-button:hover, .second-button:hover {
     border: 1px solid #fff;
     background: rgb(76, 78, 78);
     transition: 1s;
@@ -160,49 +163,22 @@ display: inline;
     color: #fff;
 }
 
-.second-button {
-    color: red;
-    border: 1px solid red;
-    display: inline-block;
-    text-decoration: none;
-    padding: 12px 34px;
-    font-size: 30px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.second-button:hover {
-    border: 1px solid #fff;
-    background: #fff;
-    transition: 1s;
-}
-
 /* Membership page */
 
-.membership-section {
-    min-height: 90vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)), url(../images/background_3.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
 .basic-plan {
-    width: 200px;
-    border-radius: 5%;
-    box-shadow: 0,0,5px rgb(100,8,8,);
+    width: 400px;
+    border-radius: 10%;
     overflow: hidden;
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 15px;
+    line-height: 1;
     color: #fff;
-    margin: 30px;
+    margin: 20px;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .basic-plan-header {
     padding: 25px;
-    background: red;
+    border-top:1px solid red;
 }
 
 .basic-plan-title, .basic-plan-addon {
@@ -222,7 +198,8 @@ display: inline;
 
 .basic-plan-description {
     padding: 25px;
-    /* border: red; */
+    border-left: 1px solid red;
+    border-right: 1px solid red;
 }
 
 .basic-plan-list {
@@ -253,7 +230,9 @@ display: inline;
     padding: 25px;
     display: flex;
     border-top: 1px solid red;
-    border: red;
+    border-left: 1px solid red;
+    border-right:1px solid red;
+    border-bottom:1px solid red;
     flex-direction: column;
 }
 
@@ -263,8 +242,8 @@ display: inline;
     padding-left: 8px 20px;
     text-decoration: none;
     color: #fff;
-    background: transparent;
-    border: 1px solid #fff;
+    background-color: red;
+    border: 1px solid red;
     text-transform: uppercase;
     letter-spacing: 0.02em;
     font-size: 20px;
@@ -272,7 +251,7 @@ display: inline;
 
 .basic-plan-button:hover {
     border: 1px solid red;
-    background: red;
+    background: rgb(76, 78, 78);
     transition: 1s;
 }
 
@@ -289,19 +268,17 @@ display: inline;
     margin-bottom: 0 0 10px 0;
 }
 
+.plan-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
 
 
 
 /* Classes page */
-
-.classes-section {
-    min-height: 90vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)), url(../images/background_4.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
 
 /* Gallery page */
 
