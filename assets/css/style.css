@@ -165,7 +165,7 @@ display: inline;
 
 /* Membership page */
 
-.basic-plan {
+.basic-plan, .full-plan {
     width: 400px;
     border-radius: 10%;
     overflow: hidden;
@@ -176,38 +176,38 @@ display: inline;
     background-color: rgba(0,0,0,0.7);
 }
 
-.basic-plan-header {
+.basic-plan-header, .full-plan-header {
     padding: 25px;
     border-top:1px solid red;
 }
 
-.basic-plan-title, .basic-plan-addon {
+.basic-plan-title, .basic-plan-addon, .full-plan-title, .full-plan-addon {
     margin: 0;
     text-align: center;
 }
 
-.basic-plan-title {
+.basic-plan-title, .full-plan-title {
     font-size: 1.5em;
     font-weight: 400;
 }
 
-.basic-plan-addon {
+.basic-plan-addon, .full-plan-addon {
     font-size: 1em;
     font-weight: 300;
 }
 
-.basic-plan-description {
+.basic-plan-description, .full-plan-description {
     padding: 25px;
     border-left: 1px solid red;
     border-right: 1px solid red;
 }
 
-.basic-plan-list {
+.basic-plan-list, .full-plan-list {
     padding: 0;
     margin: 0;
 }
 
-.basic-plan-benefit {
+.basic-plan-benefit, .full-plan-benefit {
     list-style: none;
     margin: 0;
     font-size: 0.9em;
@@ -215,18 +215,18 @@ display: inline;
     position: relative;
 }
 
-.basic-plan-benefit:not(:last-child) {
+.basic-plan-benefit:not(:last-child), .full-plan-benefit:not(:last-child) {
     margin-bottom: 0.5em;
 }
 
-.basic-plan-benefit::before {
+.basic-plan-benefit::before, .full-plan-benefit::before {
     content: "\2714";
     color: red;
     position: absolute;
     left: 0;
 }
 
-.basic-plan-select {
+.basic-plan-select, .full-plan-select {
     padding: 25px;
     display: flex;
     border-top: 1px solid red;
@@ -236,7 +236,7 @@ display: inline;
     flex-direction: column;
 }
 
-.basic-plan-button {
+.basic-plan-button, .full-plan-button {
     display: inline-block;
     margin: 15px auto;
     padding-left: 8px 20px;
@@ -249,20 +249,20 @@ display: inline;
     font-size: 20px;
 }
 
-.basic-plan-button:hover {
+.basic-plan-button:hover, .full-plan-button:hover {
     border: 1px solid red;
     background: rgb(76, 78, 78);
     transition: 1s;
 }
 
-.basic-plan-price {
+.basic-plan-price, .full-plan-price {
     margin: 0;
     text-align: center;
     font-size: 2em;
     color: #fff;
 }
 
-.basic-plan-text {
+.basic-plan-text, .full-plan-text {
     font-size: 0.9em;
     text-align: center;
     margin-bottom: 0 0 10px 0;
