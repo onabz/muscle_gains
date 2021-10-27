@@ -92,15 +92,21 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the [GitHub repository](https://github.com/onabz/muscle_gains), navigate to the Settings tab.
+    * From the Settings tab, scroll down until you see the 'Pages' button on the left.
+    * From the Source section drop-down menu, select the `Main` branch.
+    * Once the `Main` branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The live link can be found here - https://onabz.github.io/muscle_gains
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+### Local Deployment
 
+To make a local copy of this project, you can clone it by typing the following in your IDE terminal:
+
+- `git clone https://github.com/onabz/muscle_gains.git`
+
+Alternatively, if using Gitpod, you can click the green Gitpod button, or use [this link](https://gitpod.io/#https://github.com/onabz/muscle_gains)
 
 ## Credits 
 
