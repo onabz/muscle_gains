@@ -349,9 +349,11 @@ display: inline;
     clear: both;
     line-height: 0;
     column-count: 4;
+    gap: 0px;
 }
 
-#gallery-section > img {
+
+#gallery-section img {
     width: 100%;
 }
 
