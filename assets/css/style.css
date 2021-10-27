@@ -30,6 +30,10 @@ body {
     background-image: linear-gradient(rgba(4,9,30,.6),rgba(4,9,30,.6)), url(../images/background_4.jpg);
 }
 
+#bg-contact {
+    background-image: linear-gradient(rgba(4,9,30,.6),rgba(4,9,30,.6)), url(../images/background_5.jpg);
+}
+
 #bg-gallery {
     background-color: black;
 }
@@ -352,6 +356,48 @@ display: inline;
 }
 
 /* Contact page */
+
+.join-us {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.join-us h1 {
+    font-size: 35px;
+    color: red;
+    display: inline-block;
+    padding: 1px;
+    margin-bottom: 15px;
+}
+
+.join-us form {
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.join-us form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.join-us form .input-box input, textarea {
+    height: 20px;
+    width: 40%;
+    background-color: rgba(241, 8, 8, 0.7);
+    color: red;
+    padding: 10px 5px;
+    margin: 10px 0;
+    font-size: 20px;
+    border: 1px solid red;
+
+}.join-us form textarea {
+    height: 100px;
+}
+
 
 /* media queries */
 
