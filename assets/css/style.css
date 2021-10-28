@@ -217,7 +217,7 @@ display: inline;
     margin: 0;
 }
 
-.basic-plan-benefit, .full-plan-benefit {
+.basic-plan-benefit, .full-plan-benefit, .basic-plan-benefit-none {
     list-style: none;
     margin: 0;
     font-size: 0.9em;
@@ -225,7 +225,7 @@ display: inline;
     position: relative;
 }
 
-.basic-plan-benefit:not(:last-child), .full-plan-benefit:not(:last-child) {
+.basic-plan-benefit:not(:last-child), .full-plan-benefit:not(:last-child), .basic-plan-benefit-none:not(:last-child) {
     margin-bottom: 0.5em;
 }
 
@@ -234,6 +234,13 @@ display: inline;
     color: red;
     position: absolute;
     left: 0;
+}
+
+.basic-plan-benefit-none::before {
+    content: "\01F7B2";
+    color: red;
+    position: absolute;
+    left: 0%;
 }
 
 .basic-plan-select, .full-plan-select {
@@ -315,35 +322,7 @@ display: inline;
     font-weight: 700;
 }
 
-
-
 /* Gallery page */
-
-/* .gallery-section {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
-    column-gap: 5px;
-    row-gap: 5px;
-}
-
-.gallery-section > img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-}
-
-#gallery-footer {
-    background-color: black;
-    height: 10vh;
-    position: sticky;
-    top: 50%;
-} */
 
 #gallery-section {
     clear: both;
@@ -351,7 +330,6 @@ display: inline;
     column-count: 4;
     gap: 0px;
 }
-
 
 #gallery-section img {
     width: 100%;
