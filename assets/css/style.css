@@ -176,19 +176,20 @@ display: inline;
 /* Membership page */
 
 .basic-plan, .full-plan {
-    width: 400px;
+    width: 300px;
     border-radius: 10%;
     overflow: hidden;
     font-size: 15px;
     line-height: 1;
     color: #fff;
-    margin: 20px;
+    margin: 10px;
+    margin-top: -10px;
     background-color: rgba(0,0,0,0.7);
+    border: 2px solid red;
 }
 
 .basic-plan-header, .full-plan-header {
     padding: 25px;
-    border-top:1px solid red;
 }
 
 .basic-plan-title, .basic-plan-addon, .full-plan-title, .full-plan-addon {
@@ -208,8 +209,6 @@ display: inline;
 
 .basic-plan-description, .full-plan-description {
     padding: 25px;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
 }
 
 .basic-plan-list, .full-plan-list {
@@ -231,7 +230,7 @@ display: inline;
 
 .basic-plan-benefit::before, .full-plan-benefit::before {
     content: "\2714";
-    color: red;
+    color: green;
     position: absolute;
     left: 0;
 }
@@ -246,29 +245,27 @@ display: inline;
 .basic-plan-select, .full-plan-select {
     padding: 25px;
     display: flex;
-    border-top: 1px solid red;
-    border-left: 1px solid red;
-    border-right:1px solid red;
-    border-bottom:1px solid red;
     flex-direction: column;
 }
 
 .basic-plan-button, .full-plan-button {
     display: inline-block;
     margin: 15px auto;
-    padding-left: 8px 20px;
+    padding: 10px;
     text-decoration: none;
     color: #fff;
     background-color: red;
-    border: 1px solid red;
+    border: 2px solid red;
+    border-radius: 7%;
     text-transform: uppercase;
     letter-spacing: 0.02em;
     font-size: 20px;
+    font-weight: 700;
 }
 
 .basic-plan-button:hover, .full-plan-button:hover {
-    border: 1px solid red;
-    background: rgb(76, 78, 78);
+    border: 2px solid green;
+    background-color: green;
     transition: 1s;
 }
 
