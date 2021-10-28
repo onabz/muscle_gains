@@ -1,10 +1,10 @@
+![Muscle Gains Logo](assets/images/logo_1.png)
+
 # Muscle Gains
 
 Muscle Gains is a site for fitness enthusiast that are serious about becoming all round athletes. It is a site that helps to showcase all the top notch services that Muscle Gains gym has to offer. Muscle Gains is a Uk based gym with some of the best equipments that money can buy with specially designed open spaces and studios that help to elevate your workout and fitness routines in order for you to achieve your fitness goals. 
 
 Muscle Gains caters to many fitness disciplines including crossfit, boxing and martial arts. Muscle Gains is home to highly trained fitness specialists who will help you meet all your fitness targets using scientifically proven techniques.
-
-![Responsice Mockup](assets/images/logo_1.png)
 
 ## Features 
 
