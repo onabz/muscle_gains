@@ -321,17 +321,32 @@ display: inline;
 
 .table-box {
     border-collapse: collapse;
+    background-color: rgba(231, 214, 214, 0.7);
     margin: 25px auto;
     font-size: 0.9em;
     min-width: 400px;
+    width: 600px;
+    height: 500px;
 }
 
 .table-box thead #head-row {
     background-color: red;
     color: #fff;
     text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
 }
 
+.table-box th td {
+    padding: 12px 15px;
+}
+
+.table-box tbody .table-row {
+    border-bottom: 1px solid red;
+    color: black;
+    font-weight: 900;
+}
 
 /* Gallery page */
 
@@ -500,7 +515,7 @@ button {
 
  .btn {
     margin-bottom: 2rem;
-} */ */
+} */ 
 
 
 /* media queries */
