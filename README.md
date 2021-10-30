@@ -8,55 +8,72 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - It is made up of six links including the logo. They are the Home page, About page, Membership page, Classes page, Gallery and the Contact page. It is fully responsive and features on all the pages. The Logo also links back to the home page. 
+  - I makes it very easy for users to navigate around the pages with multiple links back to the home page. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](/documentation/testing/nav-bar.png)
 
-- __The landing page image__
+- __The home page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The home page features a background image of a bodybuilder carrying out a squat with a barbel at Muscle Gains gym.
+  - The gym name is boldly printed on the background image with the gym mantra written underneath.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Home Page](/documentation/testing/home-page.png)
 
-- __Club Ethos Section__
+- __The 'Join Us' button__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The home page also features button which is placed underneath the mantra to draw the attention of the user to click on it. 
+  - It has a bold red background color with the text 'Join Us' to draw the users attention to click on it.
+  - The button features a hoover effect in the form of a bacground color change from red to grey to show the user that an action is about to occur.
+  - Once clicked on, it then takes the user to the contact page where they can register to become a member. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Home Page Button](/documentation/testing/home-page-btn.png)
 
-- __Meetup Times section__
+- __The Footer__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - At the very bottom of the home page and every other page on the Muscle Gains website is the footer which houses the relevant social media links. 
+  -  When clicked on, these social media links open to a new tab preventing the user from having to use the back button to go back to the page they were on before.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Footer](/documentation/testing/footer.png)
 
-- __The Footer__ 
+  __About Page__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - It has a background image of one of the Muscle Gains gym floors with a barbel loaded with weights and a set of warrior ropes to showcase to the user one of many open spaces for carrying out various workouts. 
+  - Written boldly on the background image are some paragraphs of text to outline what the gyn is about.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  ![About Page](/documentation/testing/about-page.png)
+
+  __Membership Page__
+
+  - This page features a background image of a man and a woman doing a work out using warrior ropes.
+  - It also features two cards that clearly show two different plans available to users which are the basic plan and the full plan. Each plan lists out its benefits and price enabling the user to make an informed decision on which plan to go for.
+  - Each card houses a red button with the text 'Join Us'. The buttons feature a hoover effect involving a change in color from red to green matching the green tick symbols beside some of the benefits on each cards. The red star symbols clearly signifies the benefits not available on the basic plan.
+  - Clicking on either of the buttons takes the user to the contact page where they can register. 
+
+  ![Membership Page](/documentation/testing/membership-page.png)
+
+  __Classes Page__
+
+  - This page has a background image of some Muscle Gains gym members doing martial arts and boxing classes in the dedicated boxing and martial arts studio.
+  - It includes a timetable of all the available classes to members of Muscle Gains Gym. It shows the days, classes and times to enable users attend classes they are interested in. 
+  - The main table has an opaque background color to enable users still be able to see the gym member doing a jumping kick on a punching bag.
+
+  ![Classes Page](/documentation/testing/classes-page.png)
 
 - __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The gallery page displays various pictures of Muscle Gains gym members doing various fitness activities that go on at the gym.
+  - The pictures help to show the user the various studios, open spaces, and equipments available to them if they become members.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](/documentation/testing/gallery.png)
 
-- __The Sign Up Page__
+- __The Contact Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  -  This is the page that allow users to sign up to become members of Muscle Gains gym.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
