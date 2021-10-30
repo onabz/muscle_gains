@@ -87,7 +87,7 @@ nav {
 
 .welcome-text {
     color: #fff;
-    width: 90%;
+    width: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -323,7 +323,7 @@ display: inline;
     border-collapse: collapse;
     background-color: rgba(231, 214, 214, 0.7);
     margin: 25px auto;
-    font-size: 0.9em;
+    font-size: 16px;
     min-width: 400px;
     width: 600px;
     height: 500px;
@@ -332,7 +332,7 @@ display: inline;
 .table-box thead #head-row {
     background-color: red;
     color: #fff;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -346,6 +346,7 @@ display: inline;
     border-bottom: 1px solid red;
     color: black;
     font-weight: 900;
+    text-align: center;
 }
 
 /* Gallery page */
@@ -453,70 +454,6 @@ button {
 .contact-row .contact-data {
     padding-top: 20px;
 }
-
-
-
-/* .join-us {
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-.join-us h1 {
-    font-size: 35px;
-    color: red;
-    display: inline-block;
-    padding: 1px;
-    margin-bottom: 15px;
-}
-
-.join-us form {
-    padding: 2%;
-    margin: 0 auto;
-}
-
-::placeholder {
-    color: #fff;
-}
-
-.join-us form .input-box {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.join-us form .input-box input, textarea {
-    /* height: 20px;
-    width: 20%;
-    background-color: rgba(241, 8, 8, 0.7);
-    color: red;
-    padding: 5px 5px;
-    margin: 10px 0;
-    font-size: 20px;
-    border: 1px solid red; */
-
-    /* height: 3rem;
-    width: 40%;
-    background-color: rgba(241, 8, 8, 0.7);
-    color: red;
-    padding: 5px 5px;
-    margin: 5px 0;
-    font-size: 20px;
-    border: 1px solid red;
-
-}.join-us form textarea {
-    height: 100px;
-    width: 80%;
-    resize: none;
-    padding: 1rem;
-}
-
- .btn {
-    margin-bottom: 2rem;
-} */ 
-
 
 /* media queries */
 
