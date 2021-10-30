@@ -457,14 +457,35 @@ button {
 
 /* media queries */
 
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 950px) {
+    #gallery-section {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #gallery-section {
+        column-count: 2;
+    }
+}
+
+
+
+/* tablet view */
 @media only screen and (min-width: 601px) {
-    /* tablet view */
+    
 }
 
+/* desktop view */
 @media only screen and (min-width: 993px) {
-    /* desktop view */
+    
 }
 
+/* large desktop view */
 @media only screen and (min-width: 1201px) {
-    /* large desktop view */
+    
 }
