@@ -73,27 +73,21 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
 
 - __The Contact Page__
 
-  -  This is the page that allow users to sign up to become members of Muscle Gains gym.
+  -  This is the page that allow users to sign up to become members of Muscle Gains. It also shows the contact details of Muscle Gains.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Contact Page](/documentation/testing/contact-page.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- Interactive Google map on the contact page.
+- Hoover effect on each image on the gallery page to make each pop out when a user rolls the mouse pointer over it.
+- A booking schedule form on the classes page to allow users book classes ahead.
+- Hoover effect on each membership plan card on the membership page when a user rolls the mouse pointer over it.
+- Add some images to the About page that help show some of the important features of Muscle Gains. 
+
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
