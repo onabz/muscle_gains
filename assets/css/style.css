@@ -280,7 +280,7 @@ display: inline;
 .basic-plan-text, .full-plan-text {
     font-size: 0.9em;
     text-align: center;
-    margin-bottom: 0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 
 .plan-container {
