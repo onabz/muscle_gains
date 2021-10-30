@@ -297,7 +297,6 @@ display: inline;
     background-color: rgba(231, 214, 214, 0.7);
     margin: 25px auto;
     font-size: 16px;
-    /* min-width: 400px; */
     width: 600px;
     height: 500px;
 }
@@ -515,11 +514,31 @@ button {
 
 /* media queries */
 
+/* Desktop screens */
+
 @media screen and (max-width: 1200px) {
     .about-text {
         top: 50%;
     }
 }
+
+@media screen and (max-width: 1024px) {  
+    .join-us-box {
+        flex-wrap: wrap;
+    }
+
+    .register {
+        flex-basis: 80%;
+        padding: 20px 60px;
+    }
+
+    .contact {
+        flex-basis: 100%;
+        padding: 40px;
+    }
+}
+
+/* Laptop screens */
 
 @media screen and (max-width: 993px) {
     #gallery-section {
@@ -542,6 +561,8 @@ button {
         font-size: 23px;
     }
 }
+
+/* Tablet screens */
 
 @media screen and (max-width: 768px) {
     .about-text h1 {
@@ -581,6 +602,8 @@ button {
     }
 }
 
+/* Small tablets to Mobile screens */
+
 @media screen and (max-width: 640px) {
     .plan-container {
         flex-wrap: wrap;
@@ -590,6 +613,10 @@ button {
         font-size: 13px;
         width: 380px;
         height: 380px;
+    }
+
+    .input-container {
+        flex-direction: column ;
     }
 } 
 
