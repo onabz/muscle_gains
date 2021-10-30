@@ -502,6 +502,15 @@ button {
     }
 }
 
+@media screen and (max-width: 640px) {
+    .plan-container .full-plan {
+        /* display: flex; */
+        /* align-items: center;
+        justify-content: center;
+        padding: 10px; */
+    }
+}
+
 @media screen and (max-width: 570px) {
     .about-text h1 {
         font-size: 30px;
@@ -513,6 +522,18 @@ button {
 
     .links ul li {
         padding: 5px 9px;
+    }
+
+    .welcome-text h1 {
+        font-size: 45px;
+    }
+
+    .welcome-text p {
+        font-size: 16px;
+    }
+
+    .first-button {
+        font-size: 15px;
     }
 }
 
