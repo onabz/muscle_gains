@@ -482,7 +482,7 @@ button {
         /* align-items: center;
         justify-content: center;
         /* padding: 10px; */
-    }
+    /*
 } 
 
 /* @media screen and (max-width: 570px) {
@@ -582,17 +582,15 @@ button {
 }
 
 @media screen and (max-width: 640px) {
-    .plan-container .full-plan {
-        /* display: flex; */
-        /* align-items: center;
-        justify-content: center;
-        padding: 10px; */
+    .plan-container {
+        flex-wrap: wrap;
     }
 
     .table-box {
         font-size: 13px;
         width: 380px;
         height: 380px;
+    }
 } 
 
 
