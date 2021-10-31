@@ -16,13 +16,15 @@ From the Responsive Mockup image used above, it is clear that the view port of t
 
 ### Colour Scheme and Images Used
 
-I chose to go with a dark theme through out the site to express to the user a sense of professionalism and seriousness about fitness. The background images used throughout the site help to showcase the enthusiasm of gym members in general, the quality of equipments and gym floors available, and the 'no nonsense' vibe and energy surrounding the entire gym atmosphere. The red accents used throughout the site help to highlight important aspects of each page like the red buttonts and active red navigation links.
+I chose to go with a dark theme through out the site to express to the user a sense of professionalism and seriousness about fitness. The background images used throughout the site help to showcase the enthusiasm of gym members in general, the quality of equipments and gym floors available, and the 'no nonsense' vibe and energy surrounding the entire gym atmosphere. The red accents used throughout the site help to highlight important aspects of each page like the red buttonts and active red navigation links. All the background images used have a linear gradient opacity over them in order to make the content on them stand out even more.
 
 ### Typography
 
 I chose to use the font called Roboto Condensed from Google fonts throughout the website because it is a bold and striking font that evokes seriousness and passion. For the social media icons i chose to go with Font Awesome for their large variey of icons that are sharp and have a clean design.
 
 ### Wireframes
+
+Below are sketched images of how I planned to layout the website design. You will notice that the final design of the website is slightly different from my initial sketches for some pages like the about page. I felt the initial design of the About page would be too clustered not allowing enough room for te text message that is on the final product. And also I decided to go with using pricing cards instead of conventional tables on the Membership page because I felt the pricing Cards  were more informative and simpler to understand making it easier for the user to make an informed decision on which plan to go for as quickly as possible.
 
 ![Home Wireframe Image](documentation/wireframes/wireframe-home.jpg)
 ![About Wireframe Image](documentation/wireframes/wireframe-about.jpg)
@@ -118,7 +120,9 @@ I chose to use the font called Roboto Condensed from Google fonts throughout the
 
 ## Testing 
 
--
+- I confirmed that the navigation, logo, home, about, membership, classes, gallery and contact text are all readable and easy to understand.
+- I have tested all the 'Join Us' buttons through out the website to make sure they link back to the contact page
+- I have tested the site for responsiveness making sure that it looks easy to use across all standard screen sizes using the Google chrome development tool. 
 
 ### Validator Testing 
 
@@ -191,3 +195,8 @@ Alternatively, if using Gitpod, you can click the green Gitpod button, or use [t
 - The gallery_6 image was taken from [Pexels](https://www.pexels.com/photo/woman-pushing-barbel-using-her-feet-136404/)
 - The gallery_7 image was taken from [Pexels](https://www.pexels.com/photo/woman-lifting-barbell-371049/)
 - The gallery_8 image was taken from [Pexels](https://www.pexels.com/photo/woman-lifting-barbell-1552249/)
+
+### Acknowledgements
+
+- I would like to thank my Mentor Tim Nelson for his invaluable support all through this project. I would not have been able to put all this together if not for his patience and insight.
+- I would like to thank [Student Care](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopmentecommerce/studentcare) for their regular check up on me to ensure that I was always on track to completing this project and to reassure me that they were always available if I needed any help.
