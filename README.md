@@ -6,6 +6,8 @@ Muscle Gains is a site for fitness enthusiast that are serious about becoming al
 
 Muscle Gains caters to many fitness disciplines including crossfit, boxing and martial arts. Muscle Gains is home to highly trained fitness specialists who will help you meet all your fitness targets using scientifically proven techniques.
 
+![Ami responsive](documentation/testing/ami-responsive.png)
+
 ## Features 
 
 ### Existing Features
@@ -13,7 +15,7 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
 - __Navigation Bar__
 
   - It is made up of six links including the logo. They are the Home page, About page, Membership page, Classes page, Gallery and the Contact page. It is fully responsive and features on all the pages. The Logo also links back to the home page. 
-  - I makes it very easy for users to navigate around the pages with multiple links back to the home page.  
+  - It makes it very easy for users to navigate around the pages with multiple links back to the home page.  
 
 ![Nav Bar](documentation/testing/nav-bar.png)
 
