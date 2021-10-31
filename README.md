@@ -1,4 +1,4 @@
-![Muscle Gains Logo](assets/images/logo_1.png)
+![Muscle Gains Logo](documentation/testing/muscle-gains-logo.png)
 
 # Muscle Gains
 
@@ -15,19 +15,19 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
   - It is made up of six links including the logo. They are the Home page, About page, Membership page, Classes page, Gallery and the Contact page. It is fully responsive and features on all the pages. The Logo also links back to the home page. 
   - I makes it very easy for users to navigate around the pages with multiple links back to the home page.  
 
-![Nav Bar](/documentation/testing/nav-bar.png)
+![Nav Bar](documentation/testing/nav-bar.png)
 
  __Favicon__
   - The Muscle Gains site features a Favicon created from the Muscle Gains logo.
 
-![Favicon](/documentation/testing/favicon-image.png)
+![Favicon](documentation/testing/favicon-image.png)
 
 - __The home page__
 
   - The home page features a background image of a bodybuilder carrying out a squat with a barbel at Muscle Gains gym.
   - The gym name is boldly printed on the background image with the gym mantra written underneath.
 
-![Home Page](/documentation/testing/home-page.png)
+![Home Page](documentation/testing/home-page.png)
 
 - __The 'Join Us' button__
 
@@ -36,21 +36,21 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
   - The button features a hoover effect in the form of a bacground color change from red to grey to show the user that an action is about to occur.
   - Once clicked on, it then takes the user to the contact page where they can register to become a member. 
 
-![Home Page Button](/documentation/testing/home-page-btn.png)
+![Home Page Button](documentation/testing/home-page-btn.png)
 
 - __The Footer__
 
   - At the very bottom of the home page and every other page on the Muscle Gains website is the footer which houses the relevant social media links. 
   -  When clicked on, these social media links open to a new tab preventing the user from having to use the back button to go back to the page they were on before.
 
-![Footer](/documentation/testing/footer.png)
+![Footer](documentation/testing/footer.png)
 
   __About Page__
 
   - It has a background image of one of the Muscle Gains gym floors with a barbel loaded with weights and a set of warrior ropes to showcase to the user one of many open spaces for carrying out various workouts. 
   - Written boldly on the background image are some paragraphs of text to outline what the gyn is about.
 
-  ![About Page](/documentation/testing/about-page.png)
+  ![About Page](documentation/testing/about-page.png)
 
   __Membership Page__
 
@@ -59,7 +59,7 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
   - Each card houses a red button with the text 'Join Us'. The buttons feature a hoover effect involving a change in color from red to green matching the green tick symbols beside some of the benefits on each cards. The red star symbols clearly signifies the benefits not available on the basic plan.
   - Clicking on either of the buttons takes the user to the contact page where they can register. 
 
-  ![Membership Page](/documentation/testing/membership-page.png)
+  ![Membership Page](documentation/testing/membership-page.png)
 
   __Classes Page__
 
@@ -67,20 +67,20 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
   - It includes a timetable of all the available classes to members of Muscle Gains Gym. It shows the days, classes and times to enable users attend classes they are interested in. 
   - The main table has an opaque background color to enable users still be able to see the gym member doing a jumping kick on a punching bag.
 
-  ![Classes Page](/documentation/testing/classes-page.png)
+  ![Classes Page](documentation/testing/classes-page.png)
 
 - __Gallery__
 
   - The gallery page displays various pictures of Muscle Gains gym members doing various fitness activities that go on at the gym.
   - The pictures help to show the user the various studios, open spaces, and equipments available to them if they become members.
 
-![Gallery](/documentation/testing/gallery.png)
+![Gallery](documentation/testing/gallery.png)
 
 - __The Contact Page__
 
   -  This is the page that allow users to sign up to become members of Muscle Gains. It also shows the contact details of Muscle Gains.
 
-![Contact Page](/documentation/testing/contact-page.png)
+![Contact Page](documentation/testing/contact-page.png)
 
 ### Features Left to Implement
 
@@ -93,7 +93,7 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
 
 ## Testing 
 
-
+-
 
 ### Validator Testing 
 
@@ -114,7 +114,7 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+ 
 
 ## Deployment
 
@@ -135,11 +135,7 @@ To make a local copy of this project, you can clone it by typing the following i
 Alternatively, if using Gitpod, you can click the green Gitpod button, or use [this link](https://gitpod.io/#https://github.com/onabz/muscle_gains)
 
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
+ 
 ### Content 
 
 - The text on the About page was taken from [Total Fitness Gym](http://www.total-fitness-gym.com/gym.html)
