@@ -117,6 +117,14 @@ Below are sketched images of how I planned to layout the website design. You wil
 - Hoover effect on each membership plan card on the membership page when a user rolls the mouse pointer over it.
 - Add some images to the About page that help show some of the important features of Muscle Gains. 
 
+## Technologies Used
+
+- I used HTML to design the entire frame work of the website.
+- I used CSS to design the enitre website.
+- I used the Favicon.io converter to compress my favicon image.
+- I used Gitpod as my code editor to write all the codes used throughout the website.
+- I used Github to host my repositories.
+- I used Git for version control of my website.
 
 ## Testing 
 
@@ -143,7 +151,9 @@ Below are sketched images of how I planned to layout the website design. You wil
 
 ### Unfixed Bugs
 
- 
+- I discovered that on the contact page, the Contact Us padding is not aligned with that of the Register  divide.
+
+  ![Design issue](documentation/testing/bug.jpg)
 
 ## Deployment
 
