@@ -6,7 +6,30 @@ Muscle Gains is a site for fitness enthusiast that are serious about becoming al
 
 Muscle Gains caters to many fitness disciplines including crossfit, boxing and martial arts. Muscle Gains is home to highly trained fitness specialists who will help you meet all your fitness targets using scientifically proven techniques.
 
-![Ami responsive](documentation/testing/ami-responsive.png)
+![Responsive Mockup](documentation/testing/ami-responsive.png)
+
+From the Responsive Mockup image used above, it is clear that the view port of the mobile device used which is an older iphone model is very small hence the reason why the home screen might not look very responsive. The image below shows a view of the home screen from my peronal mobile device which is a Samsung Galaxy Note 20 Ultra.
+
+![Samsung Galaxy Note 20 Ultra](documentation/testing/samsung-galaxy.jpg)
+
+## UX
+
+### Colour Scheme and Images Used
+
+I chose to go with a dark theme through out the site to express to the user a sense of professionalism and seriousness about fitness. The background images used throughout the site help to showcase the enthusiasm of gym members in general, the quality of equipments and gym floors available, and the 'no nonsense' vibe and energy surrounding the entire gym atmosphere. The red accents used throughout the site help to highlight important aspects of each page like the red buttonts and active red navigation links.
+
+### Typography
+
+I chose to use the font called Roboto Condensed from Google fonts throughout the website because it is a bold and striking font that evokes seriousness and passion. For the social media icons i chose to go with Font Awesome for their large variey of icons that are sharp and have a clean design.
+
+### Wireframes
+
+![Home Wireframe Image](documentation/wireframes/wireframe-home.jpg)
+![About Wireframe Image](documentation/wireframes/wireframe-about.jpg)
+![Membership Wireframe Image](documentation/wireframes/wireframe-membership.jpg)
+![Classes Wireframe Image](documentation/wireframes/wireframe-classes.jpg)
+![Gallery Wireframe Image](documentation/wireframes/wireframe-gallery.jpg)
+![Contact Wireframe Image](documentation/wireframes/wireframe-contact.jpg)
 
 ## Features 
 
@@ -148,7 +171,8 @@ Alternatively, if using Gitpod, you can click the green Gitpod button, or use [t
 - Instructions on creating the table on the classes page was taken from [Styling HTML tables with CSS](https://www.youtube.com/watch?v=biI9OFH6Nmg&t=125s)
 - Instructions on how to create my gallery layout was taken from [Love Running](https://www.youtube.com/watch?v=puheUvHLbQg)
 - Instructions on how to create the contact page was taken from [How to make a Contact Us Page using HTML and CSS](https://www.youtube.com/watch?v=orBQesFBkXg&t=167s)
-- The icons in the footer were taken from [Font Awesome]()
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The font used throughout the site called Roboto Condensed was from Google fonts [Google Fonts](https://fonts.google.com/specimen/Roboto+Condensed?preview.text=muscle%20gains%20power%20lifitng&preview.text_type=custom&query=roboto+#standard-styles)
 
 ### Media
 
