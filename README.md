@@ -13,9 +13,14 @@ Muscle Gains caters to many fitness disciplines including crossfit, boxing and m
 - __Navigation Bar__
 
   - It is made up of six links including the logo. They are the Home page, About page, Membership page, Classes page, Gallery and the Contact page. It is fully responsive and features on all the pages. The Logo also links back to the home page. 
-  - I makes it very easy for users to navigate around the pages with multiple links back to the home page. 
+  - I makes it very easy for users to navigate around the pages with multiple links back to the home page.  
 
 ![Nav Bar](/documentation/testing/nav-bar.png)
+
+ __Favicon__
+  - The Muscle Gains site features a Favicon created from the Muscle Gains logo.
+
+![Favicon](/documentation/testing/favicon-image.png)
 
 - __The home page__
 
@@ -137,10 +142,30 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text on the About page was taken from [Total Fitness Gym](http://www.total-fitness-gym.com/gym.html)
+- Steps on how to create the pricing plans tables on the membership page was taken from [How to create a Pricing Plans table](https://www.youtube.com/watch?v=jfh0ZJFhj2w)
+- The lines of code I used to push the footer to the bottom of the page was taken from [Sticky Footer with CSS](https://www.youtube.com/watch?v=TaXql0h_wCA)
+- The lines of code i used for the hoover effect on the navigation links on the nav bar was taken from [How to make a website using HTML & CSS](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5)
+- The lines of code I used to make the pricing plans on the membership page more responsive was taken from [CSS Responsive Card & Hover Effects with Flexbox](https://www.youtube.com/watch?v=qXRYMdvq_Dc)
+- Instructions on creating the table on the classes page was taken from [Styling HTML tables with CSS](https://www.youtube.com/watch?v=biI9OFH6Nmg&t=125s)
+- Instructions on how to create my gallery layout was taken from [Love Running](https://www.youtube.com/watch?v=puheUvHLbQg)
+- Instructions on how to create the contact page was taken from [How to make a Contact Us Page using HTML and CSS](https://www.youtube.com/watch?v=orBQesFBkXg&t=167s)
+- The icons in the footer were taken from [Font Awesome]()
 
 ### Media
 
 - The Muscle Gains logo was created using [Adobe Spark logo maker](https://spark.adobe.com/express-apps/logo-maker/)
+- The favicon image was generated from [Favicon.io](https://favicon.io/favicon-converter/)
+- The background image on the Home page was taken from [Pexels](https://www.pexels.com/photo/man-lifting-barbel-17840/)
+- The background image on the About page was taken from [Pexels](https://www.pexels.com/photo/barbell-on-the-floor-1552252/)
+- The background image on the Membership page was taken from [Pexels](https://www.pexels.com/photo/man-and-woman-holding-battle-ropes-1552242/)
+- The background image on the Classes page was taken from [Pexels](https://www.pexels.com/photo/man-kicking-heavy-bag-260447/)
+- The background image on the Contact page was taken from [Pexels]()
+- The gallery_1 image was taken from [Pexels](https://www.pexels.com/photo/woman-doing-yoga-917653/)
+- The gallery_2 image was taken from [Pexels](https://www.pexels.com/photo/woman-holding-exercise-ropes-28080/)
+- The gallery_3 image was taken from [Pexels](https://www.pexels.com/photo/women-having-exercise-using-dumbbells-903171/)
+- The gallery_4 image was taken from [Pexels](https://www.pexels.com/photo/athlete-barbell-bodybuilder-bodybuilding-416717/)
+- The gallery_5 image was taken from [Pexels](https://www.pexels.com/photo/woman-in-black-sleeveless-crop-top-and-white-leggings-using-a-butterfly-machine-in-front-of-a-mirror-1111304/)
+- The gallery_6 image was taken from [Pexels](https://www.pexels.com/photo/woman-pushing-barbel-using-her-feet-136404/)
+- The gallery_7 image was taken from [Pexels](https://www.pexels.com/photo/woman-lifting-barbell-371049/)
+- The gallery_8 image was taken from [Pexels](https://www.pexels.com/photo/woman-lifting-barbell-1552249/)
